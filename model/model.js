@@ -34,6 +34,7 @@ class TicTacToe {
 }
 
 dontetlen (){
+    // every metodus megnezi hogy az arraynek az osszes indexen van e elem
     const dontetlen = this.tabla.every(i => i)
     if (dontetlen){
         alert("Dontetlen")
