@@ -1,16 +1,11 @@
-import TicTacToe from "../model/model.js";
-import View from "../view/view.js";
+import Amoba from "../model/model";
 
-class Controller{
+class Controller {
     constructor(){
-        this.model = new TicTacToe()
-        this.view = new View()    
-    }
+        this.model = new Amoba()
+        this.view = new View()
 
-    jatek(){
-        this.view.palya()
+        
     }
 
 }
-
-export default Controller
